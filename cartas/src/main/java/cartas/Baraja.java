@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Baraja {
+public class Baraja { 
 	
 	public List<Carta> cartas = new ArrayList<Carta>();
 

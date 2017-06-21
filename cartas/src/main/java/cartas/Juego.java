@@ -82,7 +82,6 @@ public class Juego {
 		int intel2 = 0;
 		int marcador = 0;
 		
-		//BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.print("Tus cartas:   ");
 		while (in < 3) {
 			jugador.mano.add(baraja.sacarCarta());
@@ -148,5 +147,4 @@ public class Juego {
 		}
 		return marcador;
 	}
-
 }
